@@ -31,7 +31,7 @@
         }
 
         .conhecimentos {
-            font-size: 25px;
+            font-size: 20px;
             text-align: center;
         }
         .clicar {
@@ -39,42 +39,72 @@
             color: white;
             text-align: center;
             font-weight: 600;
+            line-height: 80px;
+            font-size: 30px;
         }
         #habilidades {
             text-align: center;
         }
 
         img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+            width: 500px;
     
-    }
+        }
 
-    #entrada {
-        text-align: justify;
-        text-align: center;
-    }
+        #entrada {
+            text-align: justify;
+            text-align: center;
+        }
+        li {
+       list-style-type: none; 
+        }
+        ul {
+            text-align: center;
+        }
+       .botao {
+            width: 160px;
+            height: 40px;
+            line-height: 80px;
+            padding: 20px 10px;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+       }
+       .icones {
+            width: 80px;
+            display: inline;
+       }
+
 
 
     </style>
 </head>
 <body>
   
-    <h1 id="nome">Yarles de Andrade Espirito Santo</h1>
+    <h1 id="nome">Yarles de Andrade Espirito Santo</h1><br>
     <ul class="clicar">
-        <li><a class="clicar" href="#nome">Meu nome</a></li>
-       
-        <li><a class="clicar" href="#entrada">Perfil</li>
+        
+        <li><a  class="clicar" href="https://www.linkedin.com/in/yarles-de-andrade-espirito-santo-2652b2231/" target="_blank"> <img class="icones" src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png" alt="icone Linkedin"></a></li>
+
+
+        <li><a class="clicar" href="https://github.com/yarles-es" target="_blank"><img class="icones" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Icone Github"></a></li>
+
+        
+        <li><a class="clicar" href="https://www.instagram.com/yarles_es/" target="_blank"><img class="icones" src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg?w=740&t=st=1651876565~exp=1651877165~hmac=44245f1f9e4e88f0e17842e002ce43d1d44f4fbbb2f1cbed7015744848c41bad" alt="Icone instagram"></a></li>
+
+        <li><a class="clicar" href="#entrada">Sobre mim</li>
         
         <li><a class="clicar" href="#habilidades">Habilidades</a></li>
-       
-        <li><a class="clicar" href="https://www.linkedin.com/in/yarles-de-andrade-espirito-santo-2652b2231/" target="_blank">Linkedin</a></li>
-        
     </ul>
 
-    <img src="foto-de-perfil.jpg" alt="foto de perfil" width="400px" >
+    <img src="foto-de-perfil.jpg" alt="foto de perfil" >
 
     <p id="entrada">Olá, Seja bem-vindo(a)!
         Sou Yarles, um <strong class="destaques">Brasileiro </strong> natural de <strong class="destaques">Afonso Claudio (ES)</strong>  e resido em <strong class="destaques">Laranja da Terra</strong>. <br> Tenho aproximadamente 7 anos de experiência (como técnico) atuando na área de manutenção e instalação de telecomunicações. <br>
@@ -96,9 +126,10 @@
        
     </ul>
 
-    <a class="clicar" href="./foto-de-perfil.jpg" target="_blank">Clique para ver foto</a>
-    <br>
-    <a class="clicar" href="https://www.tecmundo.com.br/" target="_blank">Blog que uso</a>
+    <ul>
+        <li><a class="botao" href="./foto-de-perfil.jpg" target="_blank">Clique para ver foto</a></li>
+        <li><a class="botao" href="https://www.tecmundo.com.br/" target="_blank">Blog que uso</a></li>
+    </ul>
 
     
 </body>
