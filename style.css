@@ -1,0 +1,122 @@
+#nome{
+    font-family: serif Tahoma;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(216, 184, 142);
+    position: relative;
+    top: 20px;
+}
+h2{
+    font-family: serif Tahoma;
+    font-size: 2em;
+    color: rgb(216, 184, 142)
+}
+
+body {
+    font-size: 20px;
+    line-height: 35px;
+    background-color:rgb(0, 114, 122);
+    color: rgb(0, 0, 0);
+    font-family: arial;
+}
+
+.destaques {
+    color: rgb(190, 190, 190);
+}
+
+.conhecimentos {
+    font-size: 20px;
+    text-align: center;
+}
+.clicar {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 80px;
+    font-size: 30px;
+}
+.habilidades{
+    text-align: center;
+}
+
+#entrada {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding:120px 0px;
+    margin: auto;
+}
+
+.botao {
+    width: 160px;
+    height: 40px;
+    line-height: 80px;
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icones {
+    width: 80px;
+    display: inline;
+}
+
+#minha-foto{
+    width: 370px;
+    float: left;
+    padding:5px;
+    border-radius: 50%;
+    background-color: rgb(3, 233, 233);
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.image-conteiner{
+    height:490px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.redes-sociais{
+    text-align: center;
+    color: white;    
+}
+
+.organizacao-icones{
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nome-icones{
+    position:relative;
+    bottom:50px
+}
+
+.habilidades-totais{
+}
+
+.habilidades-container{
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.lista-habilidades{
+    color: rgb(0, 0, 0);
+}
+

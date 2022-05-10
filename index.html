@@ -5,131 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            font-family: serif Tahoma;
-            font-size: 3em;
-            text-align: center;
-            color: rgb(216, 184, 142);
-        }
-        h2{
-            font-family: serif Tahoma;
-            font-size: 2em;
-            color: rgb(216, 184, 142)
-        }
-        
-        body {
-            font-size: 20px;
-            line-height: 35px;
-            background-color:rgb(0, 114, 122);
-            color: white;
-            font-family: arial;
-        }
-
-        .destaques {
-            color: rgb(190, 190, 190);
-        }
-
-        .conhecimentos {
-            font-size: 20px;
-            text-align: center;
-        }
-        .clicar {
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            font-weight: 600;
-            line-height: 80px;
-            font-size: 30px;
-        }
-        #habilidades {
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 100%;
-            width: 500px;
-    
-        }
-
-        #entrada {
-            text-align: justify;
-            text-align: center;
-        }
-        li {
-       list-style-type: none; 
-        }
-        ul {
-            text-align: center;
-        }
-       .botao {
-            width: 160px;
-            height: 40px;
-            line-height: 80px;
-            padding: 20px 10px;
-            margin: 20px;
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-            border-radius: 10px;
-            text-decoration: none;
-            text-align: center;
-       }
-       .icones {
-            width: 80px;
-            display: inline;
-       }
-
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-    <h1 id="nome">Yarles de Andrade Espirito Santo</h1><br>
-    <ul class="clicar">
+    
+    <div>
+        <h1 id="nome">Yarles de Andrade Espirito Santo</h1><br>
+        <div class="image-conteiner">
+            <img id="minha-foto" src="foto-de-perfil.jpg" alt="foto de perfil" >
+            
+                <p id="entrada">Olá, Seja bem-vindo(a)! 
+                    <br>
+                    <br>
+                    Sou Yarles, um <strong class="destaques">Brasileiro </strong> natural de <strong class="destaques">Afonso Claudio (ES)</strong>  e resido em <strong class="destaques">Laranja da Terra</strong>. 
+                    <br> 
+                    
+                    Tenho aproximadamente 7 anos de experiência (como técnico) atuando na área de manutenção e instalação de telecomunicações. 
+                    <br>
+                    
+                    <em>Atualmente, sou um estudante de desenvolvimento web full-stack na Trybe. 
+                        <br>
+                        Apaixonado por praticar atividade física, tecnologia e em novos conhecimentos.
+                    </em>
+                </p>  
+        </div>
+    </div>
+    
+    <div class="redes-sociais">
+
+        <h3>Redes sociais:</h3>
         
-        <li><a  class="clicar" href="https://www.linkedin.com/in/yarles-de-andrade-espirito-santo-2652b2231/" target="_blank"> <img class="icones" src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png" alt="icone Linkedin"></a></li>
-
-
-        <li><a class="clicar" href="https://github.com/yarles-es" target="_blank"><img class="icones" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Icone Github"></a></li>
-
+        <div class="organizacao-icones">
+            <a  class="clicar" href="https://www.linkedin.com/in/yarles-de-andrade-espirito-santo-2652b2231/" target="_blank"> <img class="icones" src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png" alt="icone Linkedin"></a>
+            <h4 class="nome-icones">Linkedin</h4>
+        </div>
         
-        <li><a class="clicar" href="https://www.instagram.com/yarles_es/" target="_blank"><img class="icones" src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg?w=740&t=st=1651876565~exp=1651877165~hmac=44245f1f9e4e88f0e17842e002ce43d1d44f4fbbb2f1cbed7015744848c41bad" alt="Icone instagram"></a></li>
-
-        <li><a class="clicar" href="#entrada">Sobre mim</li>
+        <div class="organizacao-icones">
+            <a class="clicar" href="https://github.com/yarles-es" target="_blank"><img class="icones" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Icone Github"></a>
+            <h4 class="nome-icones">GitHub</h4>
+        </div>
         
-        <li><a class="clicar" href="#habilidades">Habilidades</a></li>
-    </ul>
+        <div class="organizacao-icones">
+            <a class="clicar" href="https://www.instagram.com/yarles_es/" target="_blank"><img class="icones" src="https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon.png" alt="Icone instagram"></a>
 
-    <img src="foto-de-perfil.jpg" alt="foto de perfil" >
+            <h4 class="nome-icones">Instagram</h4>
+        </div>
+    </div>
+    
+    <div class="habilidades-totais">
 
-    <p id="entrada">Olá, Seja bem-vindo(a)!
-        Sou Yarles, um <strong class="destaques">Brasileiro </strong> natural de <strong class="destaques">Afonso Claudio (ES)</strong>  e resido em <strong class="destaques">Laranja da Terra</strong>. <br> Tenho aproximadamente 7 anos de experiência (como técnico) atuando na área de manutenção e instalação de telecomunicações. <br>
-        <em>Atualmente, sou um estudante de desenvolvimento web full-stack na Trybe.
-            Apaixonado por praticar atividade física, tecnologia e em novos conhecimentos.
-        </em>
-    </p>
- 
-    <h2 id="habilidades">Habilidades que possuo:</h2>
- 
-    <ul>
-        <li class="conhecimentos">Fibra óptica</li>
+        <div class="habilidades-container">
+            <h2 class="habilidades">Habilidades que possuo:</h2>
+            <div class="lista-habilidades"> 
+                <ul>
+                    <li><strong>Instalação e manutenção de telecomunicações</strong></li>
+                    
+                    <li>Montagem e manutenção em rede de computadores</li>
+                    
+                    <li>Conhecimentos basicos MIKROTIK</li>
+                    
+                    
+                    
+                </ul>
+            </div> 
+        </div>
         
-        <li class="conhecimentos">Rede de computadores</li>
-       
-        <li class="conhecimentos"><strong>Instalação e manutenção de telecomunicações</strong></li>
+        <div class="habilidades-container">
+            <h2 class="habilidades">Habilidades em desenvolvimento:</h2>
+            <div class="lista-habilidades">
+                <ul>
+                    <li>HTML <a href="https://www.imagensanimadas.com/cat-ampulhetas-1261.htm"><img width="20px" src="https://www.imagensanimadas.com/data/media/1261/ampulheta-imagem-animada-0010.gif" border="0" alt="ampulheta-imagem-animada-0010" /></a></li>
+                    <li>CSS <a href="https://www.imagensanimadas.com/cat-ampulhetas-1261.htm"><img width="20px" src="https://www.imagensanimadas.com/data/media/1261/ampulheta-imagem-animada-0010.gif" border="0" alt="ampulheta-imagem-animada-0010" /></a></li>
+                    <li>JavaScript <a href="https://www.imagensanimadas.com/cat-ampulhetas-1261.htm"><img width="20px" src="https://www.imagensanimadas.com/data/media/1261/ampulheta-imagem-animada-0010.gif" border="0" alt="ampulheta-imagem-animada-0010" /></a></li>
+                    <li>Desenvolvimento Front-end <a href="https://www.imagensanimadas.com/cat-ampulhetas-1261.htm"><img width="20px" src="https://www.imagensanimadas.com/data/media/1261/ampulheta-imagem-animada-0010.gif" border="0" alt="ampulheta-imagem-animada-0010" /></a></li>
+                    <li>Desenvolvimento Back-end <a href="https://www.imagensanimadas.com/cat-ampulhetas-1261.htm"><img width="20px" src="https://www.imagensanimadas.com/data/media/1261/ampulheta-imagem-animada-0010.gif" border="0" alt="ampulheta-imagem-animada-0010" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
         
-        <li class="conhecimentos">Conhecimentos basicos MIKROTIK</li>
-       
-    </ul>
 
     <ul>
         <li><a class="botao" href="./foto-de-perfil.jpg" target="_blank">Clique para ver foto</a></li>
         <li><a class="botao" href="https://www.tecmundo.com.br/" target="_blank">Blog que uso</a></li>
     </ul>
+	
 
     
 </body>
